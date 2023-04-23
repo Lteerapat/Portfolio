@@ -1,0 +1,44 @@
+$fonts-path: '../assets/fonts';
+
+@import 'animate.css';
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('#{$fonts-path}/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'La Belle Aurore';
+    src: url('#{$fonts-path}/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('#{$fonts-path}/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input, 
+textarea {
+    font-family: 'Helvetica Neue';
+}
+
+.loader-active {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+

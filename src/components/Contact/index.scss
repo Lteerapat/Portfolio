@@ -1,0 +1,125 @@
+@import '../../styles/color.scss';
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+        width: 100%;
+        border: 0;
+        background: $primary-color-light;
+        height: 50px;
+        font-size: 16px;
+        color: $secondary-color;
+        padding: 0 20px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    textarea {
+        width: 100%;
+        border: 0;
+        background: $primary-color-light;
+        height: 50px;
+        font-size: 16px;
+        color: $secondary-color;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .flat-button {
+        color: $primary-color-dark;
+        background: 0 0;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid $primary-color-dark;
+        float: right;
+        border-radius: 4px;
+        text-align: center;
+        font-family: sans-serif;
+
+        &:hover {
+            cursor: pointer;
+            background: $primary-color-dark;
+            color: $font-color;
+        }
+    }
+}
+
+.info-map {
+    position: absolute;
+    background: $font-color;
+    top: 50px;
+    right: 30%;
+    z-index: 99999;
+    width: fit-content;
+    padding: 20px;
+    color: $font-color-alt;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s;
+    animation-fill-mode: forwards;
+
+    span {
+        font-size: 17px;
+        display: block;
+        padding: 8px;
+        margin-top: 5px;
+        color: $font-color;
+        background: $primary-color-light;
+        border-radius: 4px;
+    }
+}
+
+.map-wrap {
+    background: rgba(8, 253, 216, .1);
+    float: right;
+    width: 53%;
+    height: 100%;
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    animation: backInRight 1s 1.2s;
+    animation-fill-mode: forwards;
+}
