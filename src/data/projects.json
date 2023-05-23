@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "cover": "/projects/colmar/colmar-cover.png",
+            "title": "Colmar Academy",
+            "description": "Responsive website using HTML5, CSS3, and GitHub pages.",
+            "skills": ["HTML", "CSS", "GitHub Pages"],
+            "github": "https://github.com/Lteerapat/Colmar",
+            "url": "https://lteerapat.github.io/Colmar/"
+        },
+        {
+            "cover": "/projects/find-my-love/colmar-cover.png",
+            "title": "Find My Love 🌹",
+            "description": "Interactive terminal game. I lost my love, help me find it!",
+            "skills": ["JavaScript"],
+            "github": "https://github.com/Lteerapat/FindMyLove",
+            "url": "https://replit.com/@TeerapatLim/FindMyLove"
+        },
+        {
+            "cover": "/projects/gaintrack/colmar-cover.png",
+            "title": "GainTrack",
+            "description": "Exercise tracking web application with interesting features, built with MERN Stack.",
+            "skills": ["React", "Node.js", "Express", "MongoDB"],
+            "github": "https://github.com/Lteerapat/GroupJ",
+            "url": "https://lteerapat.github.io/Colmar/"
+        },
+        {
+            "cover": "/projects/airbnb/colmar-cover.png",
+            "title": "Airbnb Clone",
+            "description": "The simple clone version of Airbnb website with MERN Stack",
+            "skills": ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
+            "github": "https://github.com/Lteerapat/AIRBNB-Clone",
+            "url": "https://lteerapat.github.io/Colmar/"
+        },
+        {
+            "cover": "/projects/portfolio/colmar-cover.png",
+            "title": "My Portfolio",
+            "description": "",
+            "skills": ["React", "SCSS"],
+            "github": "https://github.com/Lteerapat/Portfolio",
+            "url": "https://lteerapat.github.io/Colmar/"
+        }
+    ]
+}
