@@ -120,3 +120,30 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .page {
+        position: initial;
+    }
+
+    .container {
+        position: initial;
+        min-height: auto;
+        height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.projects-page,
+        &.skills-page {
+            .text-zone {
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        }
+
+    }
+}

@@ -7,7 +7,16 @@ html {
 body {
     margin: 0;
     font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif; //font-weight font-size/line height
-    color: $font-color-alt;
+    color: $secondary-color;
     background: $primary-color;
-    overflow: clip ;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+    overflow: hidden ;
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        overflow: visible;
+    }
 }

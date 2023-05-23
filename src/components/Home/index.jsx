@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom';
-import FirstLetter from '../../assets/images/logo-s.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-// import Logo from './Logo';
 import "loaders.css/src/animations/pacman.scss";
 import Loader from 'react-loaders';
 import myPic from '../../assets/images/myself.jpg';

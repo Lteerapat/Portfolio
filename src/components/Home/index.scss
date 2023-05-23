@@ -82,6 +82,45 @@
         position: absolute;
         top: 20%;
         right: 20%;
+        animation: fadeIn 1s 2.2s backwards;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1:before, 
+    .home-page h1:after {
+        display: none;
     }
 
+    .home-page {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            position: relative;
+            width: 200px;
+            height: auto;
+            top: 0;
+            right: 0;
+            box-sizing: border-box;
+            margin: auto;
+            left: 0;
+        }
+        
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+    }
 }
