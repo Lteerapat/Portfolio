@@ -1,7 +1,8 @@
 @import '../../styles/color.scss';
 
 .home-page {
-    // position: relative;
+    position: relative;
+
     .text-zone {
         position: absolute;
         left: 10%;
@@ -10,75 +11,77 @@
         width: 40%;
         max-height: 90%;
         cursor: default;
-    }
+    
 
-    h1 {
-        color: $font-color-alt;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'Coolvetica';
-        font-weight: 400;
+        h1 {
+            color: $font-color-alt;
+            font-size: 53px;
+            margin: 0;
+            font-family: 'Coolvetica';
+            font-weight: 400;
 
-        &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: $font-color;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            opacity: .8;
+            &::before {
+                content: '<h1>';
+                font-family: 'La Belle Aurore';
+                color: $font-color;
+                font-size: 18px;
+                position: absolute;
+                margin-top: -40px;
+                left: 15px;
+                opacity: .8;
+            }
+
+            &::after {
+                content: '</h1>';
+                font-family: 'La Belle Aurore';
+                color: $font-color;
+                position: absolute;
+                font-size: 18px;
+                margin-top: 18px;
+                margin-left: 20px;
+                animation: fadeIn 1s 1.7s backwards;
+                opacity: .8;
+            }
         }
 
-        &::after {
-            content: '</h1>';
-            font-family: 'La Belle Aurore';
-            color: $font-color;
-            position: absolute;
-            font-size: 18px;
-            margin-top: 18px;
-            margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: .8;
+        h2 {
+            color: $font-color-fade;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 11px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            animation: fadeIn 1s 1.8s backwards;
         }
-
-        img {
-            width: 32px;
-            margin-left: 20px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn .5s linear both;
-            animation-delay: 1.4s;
-        }
-    }
-
-    h2 {
-        color: $font-color-fade;
-        margin-top: 20px;
-        font-weight: 400;
-        font-size: 11px;
-        font-family: sans-serif;
-        letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
-    }
-
-    .flat-button {
-        color: $primary-color-dark;
-        font-size: 13px;
-        font-size: 400;
-        letter-spacing: 4px;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 10px 18px;
-        border: 1px solid $primary-color-dark;
-        margin-top: 25px;
-        float: left;
-        animation: fadeIn 1s 1.8s backwards;
-        white-space: nowrap;
-
-        &:hover {
-            background-color: $primary-color-dark;
-            color: $font-color;
+    
+        .flat-button {
+            color: $primary-color-dark;
+            font-size: 13px;
+            font-size: 400;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 18px;
+            border: 1px solid $primary-color-dark;
+            margin-top: 25px;
+            float: left;
+            animation: fadeIn 1s 1.8s backwards;
+            white-space: nowrap;
+    
+            &:hover {
+                background-color: $primary-color-dark;
+                color: $font-color;
+            }
         }
     }
+
+    img {
+        display: block;
+        border-radius: 100%;
+        height: auto;
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+
 }

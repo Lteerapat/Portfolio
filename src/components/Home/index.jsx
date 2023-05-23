@@ -3,12 +3,12 @@ import FirstLetter from '../../assets/images/logo-s.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo';
+// import Logo from './Logo';
 import "loaders.css/src/animations/pacman.scss";
 import Loader from 'react-loaders';
-
+import myPic from '../../assets/images/myself.jpg';
 const Home = () => {
-    const name = 'eerapat,';
+    const name = ' Teerapat,';
     const job = 'web developer.';
     const[letterClass, setLetterClass] = useState('text-animate');
     const nameArray = [...name];
@@ -30,7 +30,6 @@ const Home = () => {
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
-                        <img src={FirstLetter} alt="S" />
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={nameArray}
@@ -46,7 +45,8 @@ const Home = () => {
                     <h2>Generationth Learner</h2>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
-                <Logo />
+                <img src={myPic} alt="my picture" />
+                
             </div>
             <Loader type="pacman" />
         </>
