@@ -84,6 +84,18 @@
             }
         }
 
+        a.skills-link {
+            &:after {
+                content: 'SKILLS';
+            }
+        }
+
+        a.projects-link {
+            &:after {
+                content: 'PROJECTS';
+            }
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT';

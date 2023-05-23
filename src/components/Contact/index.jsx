@@ -8,11 +8,9 @@ import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
-    const contactMe = 'Contact me';
-    const contactMeArray = [...contactMe];
     const[letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
-    const postion = [14.025240757818013, 100.61621923927471];
+    const position = [14.025240757818013, 100.61621923927471];
 
     useEffect(() => {
         setTimeout(() => {
@@ -42,7 +40,7 @@ const Contact = () => {
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters 
-                            strArray={contactMeArray}
+                            strArray={[...'Contact me']}
                             idx={15}
                             letterClass={letterClass}
                         />
@@ -81,12 +79,12 @@ const Contact = () => {
                     <span>tlimpawittayakul@gmail.com</span>
                 </div>
                 <div className="map-wrap">
-                    <MapContainer center={postion} zoom={13} scrollWheelZoom={false}>
+                    <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
                         <TileLayer
                             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker position={postion}>
+                        <Marker position={position}>
                             <Popup>
                                 Teerapat lives here :)
                             </Popup>

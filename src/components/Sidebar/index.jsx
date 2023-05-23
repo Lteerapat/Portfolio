@@ -29,6 +29,22 @@ const Sidebar = () => {
                     <NavLink 
                         exact='true' 
                         activeclassname='active' 
+                        className='skills-link' 
+                        to='/skills'
+                    >
+                        <i className="fa-solid fa-gears"></i>
+                    </NavLink>
+                    <NavLink 
+                        exact='true' 
+                        activeclassname='active' 
+                        className='projects-link' 
+                        to='/projects'
+                    >
+                        <i className="fa-solid fa-suitcase"></i>
+                    </NavLink>
+                    <NavLink 
+                        exact='true' 
+                        activeclassname='active' 
                         className='contact-link' 
                         to='/contact'
                     >

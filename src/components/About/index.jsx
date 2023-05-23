@@ -6,8 +6,6 @@ import Loader from 'react-loaders';
 import "loaders.css/src/animations/pacman.scss";
 
 const About = () => {
-    const aboutMe = 'About me';
-    const abouMeArray = [...aboutMe];
     const[letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
@@ -22,7 +20,7 @@ const About = () => {
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters
-                            strArray={abouMeArray}
+                            strArray={[...'About me']}
                             idx={15}
                             letterClass={letterClass}
                         />

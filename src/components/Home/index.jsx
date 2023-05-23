@@ -8,11 +8,7 @@ import "loaders.css/src/animations/pacman.scss";
 import Loader from 'react-loaders';
 import myPic from '../../assets/images/myself.jpg';
 const Home = () => {
-    const name = ' Teerapat,';
-    const job = 'web developer.';
     const[letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = [...name];
-    const jobArray = [...job];
 
     useEffect(() => {
         setTimeout(() => {
@@ -32,13 +28,13 @@ const Home = () => {
                         <span className={`${letterClass} _14`}>'m</span>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={nameArray}
+                            strArray={[...' Teerapat,']}
                             idx={15}
                         />
                         <br />
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={jobArray}
+                            strArray={[...'web developer.']}
                             idx={22}
                         />
                     </h1>
