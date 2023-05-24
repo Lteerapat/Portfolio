@@ -1,5 +1,44 @@
 @import '../../styles/color.scss';
 
-.skills-page {
-    
+.skills-charts {
+    position: absolute;
+	width: 80%;
+	right: -15%;
+	left: auto;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 2;
+
+}
+
+#myCanvasContainer {
+    position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+#myCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: auto;
+	height: 100%;
+
+    li {
+        font-size: 30px;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+canvas {
+    display: inline-block;
+	vertical-align: baseline
 }

@@ -46,7 +46,7 @@ const About = () => {
                 <div className="stage-cube-cont">
                     <div className="cube-spinner">
                         <div className="face1">
-                            <i className="fa-brands fa-bootstrap" style={{color: '#6E10F4'}}></i>
+                            <i className="fa-brands fa-sass" style={{color: '#BF4080'}}></i>
                         </div>
                         <div className="face2">
                             <i className="fa-brands fa-html5" style={{color: '#EF6026'}}></i>
