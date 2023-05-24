@@ -1,7 +1,7 @@
 @import '../../styles/color.scss';
 
 .home-page {
-    position: relative;
+    // position: relative;
 
     .text-zone {
         position: absolute;
@@ -15,7 +15,8 @@
 
         h1 {
             color: $font-color-alt;
-            font-size: 53px;
+            font-size: 56px;
+            // line-height: 53px;
             margin: 0;
             font-family: 'Coolvetica';
             font-weight: 400;
@@ -27,7 +28,7 @@
                 font-size: 18px;
                 position: absolute;
                 margin-top: -40px;
-                left: 15px;
+                // left: 7px;
             }
 
             &::after {
@@ -36,7 +37,7 @@
                 color: $font-color;
                 position: absolute;
                 font-size: 18px;
-                margin-top: 18px;
+                margin-top: 40px;
                 margin-left: 20px;
                 animation: fadeIn 1s 1.7s backwards;
             }
@@ -72,7 +73,6 @@
             }
         }
     }
-
     img {
         display: block;
         border-radius: 100%;
@@ -81,6 +81,8 @@
         top: 20%;
         right: 20%;
         animation: fadeIn 1s 2.2s backwards;
+        border: 8px solid $secondary-color;
+        box-shadow: 2px 2px 50px lightpink;
     }
 }
 

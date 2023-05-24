@@ -26,21 +26,23 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I am passionate about coding and driven to learn more about
+                        My name is Teerapat Limpawittayakul or <span>Mee-pooh</span>. I completed 
+                        the Junior Software Developer Bootcamp at Generation Thailand.
+                    </p>
+                    <p>
+                        I am <span>passionate about coding</span> and driven to learn more about
                         the world of technology. I am committed to continuous
                         learning and staying up-to-date with the latest developments
                         in the field of technology.
                     </p>
                     <p>
                         I am excited about the opportunity to contribute my skills
-                        to a dynamic and innovative company as a web developer.
-                    </p>
-                    <p>
-                        I am confident that my technical abilities, passion for
-                        coding, and collaborative mindset make me a valuable
-                        addition to any team.
+                        to a dynamic and innovative company as a <span>web developer</span>.
                     </p>
                 </div>
+                <div className="stars"></div>
+                <div className="stars2"></div>
+                <div className="stars3"></div>
                 <div className="stage-cube-cont">
                     <div className="cube-spinner">
                         <div className="face1">

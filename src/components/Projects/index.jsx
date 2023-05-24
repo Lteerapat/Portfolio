@@ -61,6 +61,9 @@ const Projects = () => {
     return (
         <>
             <div className="container projects-page">
+                <div className="stars"></div>
+                <div className="stars2"></div>
+                <div className="stars3"></div>
                 <h1 className="page-title">
                     <AnimatedLetters 
                         letterClass={letterClass}
