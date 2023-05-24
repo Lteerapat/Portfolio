@@ -5,12 +5,10 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import {useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
     const[letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
-    const position = [14.025240757818013, 100.61621923927471];
 
     useEffect(() => {
         setTimeout(() => {
@@ -77,19 +75,6 @@ const Contact = () => {
                     <br />
                     Pathum Thani <br />
                     <span>tlimpawittayakul@gmail.com</span>
-                </div>
-                <div className="map-wrap">
-                    <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-                        <TileLayer
-                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        />
-                        <Marker position={position}>
-                            <Popup>
-                                Teerapat lives here :)
-                            </Popup>
-                        </Marker>
-                    </MapContainer>
                 </div>
             </div>
 

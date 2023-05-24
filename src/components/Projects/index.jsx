@@ -1,4 +1,3 @@
-import React from "react";
 import './index.scss';
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
@@ -28,22 +27,29 @@ const Projects = () => {
                                 alt="project-cover-image"
                             />
                             <div className="content">
-                                <p className="title">{project.title}</p>
-                                <h4 className="description">{project.description}</h4>
-                                <button
-                                    className="btn"
-                                    onClick={() => window.open(project.github)}
-                                >
-                                    <i className="fa-brands fa-github"></i>
-                                    Repo
-                                </button>
-                                <button
-                                    className="btn"
-                                    onClick={() => window.open(project.url)}
-                                >
-                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                                    Demo
-                                </button>
+                                <h4 className="title">{project.title}</h4>
+                                <p className="description">{project.description}</p>
+                                <div className="skills-content">
+                                    {project.skills.map((skill, i) => (
+                                        <p className="skill" key={i}>{project.skills[i]}</p>
+                                    ))}
+                                </div>
+                                <div className="btn-content">
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open(project.github)}
+                                    >
+                                        <i className="fa-brands fa-github"></i>
+                                        Repo
+                                    </button>
+                                    <button
+                                        className="btn"
+                                        onClick={() => window.open(project.url)}
+                                    >
+                                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                                        Demo
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     );        

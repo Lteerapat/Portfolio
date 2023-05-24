@@ -9,7 +9,7 @@
             "url": "https://lteerapat.github.io/Colmar/"
         },
         {
-            "cover": "/projects/find-my-love/colmar-cover.png",
+            "cover": "/projects/find-my-love/find-my-love.png",
             "title": "Find My Love 🌹",
             "description": "Interactive terminal game. I lost my love, help me find it!",
             "skills": ["JavaScript"],
@@ -17,7 +17,7 @@
             "url": "https://replit.com/@TeerapatLim/FindMyLove"
         },
         {
-            "cover": "/projects/gaintrack/colmar-cover.png",
+            "cover": "/projects/gaintrack/gaintrack.png",
             "title": "GainTrack",
             "description": "Exercise tracking web application with interesting features, built with MERN Stack.",
             "skills": ["React", "Node.js", "Express", "MongoDB"],
@@ -33,12 +33,12 @@
             "url": "https://lteerapat.github.io/Colmar/"
         },
         {
-            "cover": "/projects/portfolio/colmar-cover.png",
+            "cover": "/projects/portfolio/portfolio.png",
             "title": "My Portfolio",
-            "description": "",
+            "description": "Check my portfolio's repository on GitHub, if you would like to.",
             "skills": ["React", "SCSS"],
             "github": "https://github.com/Lteerapat/Portfolio",
-            "url": "https://lteerapat.github.io/Colmar/"
+            "url": "https://www.lteerapat.com/"
         }
     ]
 }
