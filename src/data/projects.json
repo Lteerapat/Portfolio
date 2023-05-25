@@ -27,7 +27,7 @@
         {
             "cover": "/projects/airbnb/colmar-cover.png",
             "title": "Airbnb Clone",
-            "description": "The simple clone version of Airbnb website with MERN Stack",
+            "description": "The simple clone version of Airbnb website with MERN Stack.",
             "skills": ["React", "Node.js", "Express", "MongoDB", "TailwindCSS"],
             "github": "https://github.com/Lteerapat/AIRBNB-Clone",
             "url": "https://lteerapat.github.io/Colmar/"
