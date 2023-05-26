@@ -20,9 +20,9 @@
             "cover": "/projects/gaintrack/gaintrack.png",
             "title": "GainTrack",
             "description": "Exercise tracking web application with interesting features, built with MERN Stack.",
-            "skills": ["React", "Node.js", "Express", "MongoDB"],
-            "github": "https://github.com/Lteerapat/GroupJ",
-            "url": "https://lteerapat.github.io/Colmar/"
+            "skills": ["React", "Node.js", "Express", "MongoDB", "Docker"],
+            "github": "https://github.com/Lteerapat/GainTrack",
+            "url": "https://gaintrack.online/"
         },
         {
             "cover": "/projects/airbnb/airbnb.jpg",
