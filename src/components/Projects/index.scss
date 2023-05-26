@@ -29,7 +29,8 @@
             border-radius: 10px;
             max-width: calc(28% - 10px);
             border: 2px $secondary-color solid;
-            animation: fadeInUp 1.5s 1.5s;
+            opacity: 0;
+            animation: fadeInUp  1s;
             animation-fill-mode: forwards;
 
             &:nth-of-type(1) {
