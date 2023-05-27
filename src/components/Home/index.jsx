@@ -32,7 +32,7 @@ const Home = () => {
                         <br />
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={[...'web developer.']}
+                            strArray={[...'Web Developer.']}
                             idx={22}
                         />
                     </h1>
