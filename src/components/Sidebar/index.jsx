@@ -60,18 +60,43 @@ const Sidebar = () => {
                 >
                     <i className="fa-solid fa-envelope"></i>
                 </NavLink>
+                <div className='external-link' style={{display:'none'}}>
+                    <a
+                        onClick={() => setShowNav(false)}
+                        href="https://www.linkedin.com/in/teerapatlim/" 
+                        target='_blank' 
+                        rel='noreferrer'
+                    >
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a 
+                        onClick={() => setShowNav(false)}
+                        href="https://github.com/Lteerapat" 
+                        target='_blank' 
+                        rel='noreferrer'
+                    >
+                        <i className="fa-brands fa-github"></i>
+                    </a>
+                    <a 
+                        onClick={() => setShowNav(false)}
+                        href="https://drive.google.com/file/d/1Pb6kIp-87SuNKHm87ARjbfal-wUTNm4f/view?usp=share_link" 
+                        target='_blank' 
+                        rel='noreferrer'
+                    >
+                        <i className="fa-solid fa-file"></i>
+                    </a>
+                </div>
                 <i 
                     onClick={() => setShowNav(false)}
                     className="fa-solid fa-minus close-icon"></i>
             </nav>
 
-            <ul className={showNav ? 'mobile-show' : ''}>
+            <ul>
                 <li>
                     <a 
                         href="https://www.linkedin.com/in/teerapatlim/" 
                         target='_blank' 
                         rel='noreferrer'
-                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
@@ -81,7 +106,6 @@ const Sidebar = () => {
                         href="https://github.com/Lteerapat" 
                         target='_blank' 
                         rel='noreferrer'
-                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-brands fa-github"></i>
                     </a>
@@ -91,7 +115,6 @@ const Sidebar = () => {
                         href="https://drive.google.com/file/d/1Pb6kIp-87SuNKHm87ARjbfal-wUTNm4f/view?usp=share_link" 
                         target='_blank' 
                         rel='noreferrer'
-                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-solid fa-file"></i>
                     </a>
