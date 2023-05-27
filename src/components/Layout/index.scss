@@ -224,5 +224,43 @@
         }
     }
 
+    .stars {
+        
+    
+        &:after {
+            top: 500px;
+            
+        }
+    }
+    
+      
+    .stars2 {
+        
+    
+        &:after {
+            top: 500px;
+            
+        }
+    }
+     
+    .stars3 {
+        
+    
+        &:after {
+            
+            top: 500px;
+        }
+    }
+    
+    @keyframes animStar {
+        from {
+          transform: translateY(0px);
+        }
+    
+        to {
+          transform: translateY(-1000px);
+        }
+    }
+
     
 }
