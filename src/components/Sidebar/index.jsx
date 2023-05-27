@@ -65,12 +65,13 @@ const Sidebar = () => {
                     className="fa-solid fa-minus close-icon"></i>
             </nav>
 
-            <ul>
+            <ul className={showNav ? 'mobile-show' : ''}>
                 <li>
                     <a 
                         href="https://www.linkedin.com/in/teerapatlim/" 
                         target='_blank' 
                         rel='noreferrer'
+                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
@@ -80,6 +81,7 @@ const Sidebar = () => {
                         href="https://github.com/Lteerapat" 
                         target='_blank' 
                         rel='noreferrer'
+                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-brands fa-github"></i>
                     </a>
@@ -89,6 +91,7 @@ const Sidebar = () => {
                         href="https://drive.google.com/file/d/1Pb6kIp-87SuNKHm87ARjbfal-wUTNm4f/view?usp=share_link" 
                         target='_blank' 
                         rel='noreferrer'
+                        onClick={() => setShowNav(false)}
                     >
                         <i className="fa-solid fa-file"></i>
                     </a>
