@@ -35,9 +35,6 @@ const Contact = () => {
     return (
         <>
             <div className="container contact-page">
-                <div className="stars"></div>
-                <div className="stars2"></div>
-                <div className="stars3"></div>
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters 
@@ -47,7 +44,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am actively seeking new opportunities and am interested in learning more about any potential collaborations you may have in mind. Please don't hesitate to contact me using below form.
+                        I am actively seeking new opportunities and am interested in learning more about any potential collaborations you may have in mind. Please don&apos;t hesitate to contact me using below form.
                     </p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>

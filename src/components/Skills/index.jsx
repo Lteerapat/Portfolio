@@ -16,9 +16,6 @@ const Skills = () => {
     return (
         <>
             <div className="container skills-page">
-                <div className="stars"></div>
-                <div className="stars2"></div>
-                <div className="stars3"></div>
                 <div className="text-zone">
                     <h1 className="page-title">
                         <AnimatedLetters

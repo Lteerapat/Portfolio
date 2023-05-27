@@ -17,6 +17,7 @@ const About = () => {
     return (
         <>
             <div className="container about-page">
+                
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters
@@ -40,9 +41,6 @@ const About = () => {
                         to a dynamic and innovative company as a <span>web developer</span>.
                     </p>
                 </div>
-                <div className="stars"></div>
-                <div className="stars2"></div>
-                <div className="stars3"></div>
                 <div className="stage-cube-cont">
                     <div className="cube-spinner">
                         <div className="face1">

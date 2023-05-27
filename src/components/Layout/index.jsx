@@ -9,6 +9,9 @@ const Layout = () => {
         <div className='App'>
             <Sidebar />
             <div className="page">
+                <div className="stars"></div>
+                <div className="stars2"></div>
+                <div className="stars3"></div>
                 <span className='tags top-tags'>&lt;body&gt;</span>
                 <Outlet />
                 <span className="tags bottom-tags">
