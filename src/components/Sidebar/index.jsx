@@ -112,7 +112,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <a 
-                        href="https://drive.google.com/file/d/1Pb6kIp-87SuNKHm87ARjbfal-wUTNm4f/view?usp=share_link" 
+                        href="https://drive.google.com/file/d/1AsvsCHFM0WpaQDRki-G0lbzUuMftbH0G/view?usp=drive_link" 
                         target='_blank' 
                         rel='noreferrer'
                     >
